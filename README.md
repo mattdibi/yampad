@@ -25,3 +25,10 @@ Features:
 - RGB backlighting support (optional).
 - OLED 0.91" screen (optional).
 - Completely open-source.
+
+## Default Layout
+
+<p align="center">
+<img src="img/Layer1.png" alt="Layer 1 Yampad" width="300"/>
+<img src="img/Layer2.png" alt="Layer 2 Yampad" width="300"/>
+</p>
