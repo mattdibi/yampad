@@ -32,3 +32,11 @@ Features:
 <img src="img/Layer1.png" alt="Layer 1 Yampad" width="300"/>
 <img src="img/Layer2.png" alt="Layer 2 Yampad" width="300"/>
 </p>
+
+### Donations
+
+If you've read this far and found something useful, please consider donating to help me maintain and further develop this project.
+
+<p align="center">
+<a href="https://www.paypal.me/MattiaDalBen"><img src="img/donate-button.jpeg" alt="Donate button" width=300/></a>
+</p>
