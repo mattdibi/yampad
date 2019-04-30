@@ -1,7 +1,7 @@
 # The Yampad project repository
 
 <p align="center">
-<img src="img/yampad_logo.png" alt="Yampad logo" width="300"/>
+<img src="img/yampad_logo.png" alt="Yampad logo" width="450"/>
 <img src="img/qmk-badge-dark.png" alt="QMK" width="145"/>
 </p>
 
