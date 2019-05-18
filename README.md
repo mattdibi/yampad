@@ -39,6 +39,10 @@ Features:
 <img src="img/Layer2.png" alt="Layer 2 Yampad" width="300"/>
 </p>
 
+## Firmware
+
+For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad).
+
 ### Donations
 
 If you've read this far and found something useful, please consider donating to help me maintain and further develop this project.
