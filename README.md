@@ -32,12 +32,20 @@ Features:
 - OLED 0.91" screen (optional).
 - Completely open-source.
 
+#### Useful links
+
+- [YamPAD on Hackaday.io](https://hackaday.io/project/163491-yampad-feature-packed-open-source-macropad)
+
 ## Default Layout
 
 <p align="center">
 <img src="img/Layer1.png" alt="Layer 1 Yampad" width="300"/>
 <img src="img/Layer2.png" alt="Layer 2 Yampad" width="300"/>
 </p>
+
+## Assembly guide
+
+WIP
 
 ## Firmware
 
