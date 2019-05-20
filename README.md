@@ -43,6 +43,21 @@ Features:
 <img src="img/Layer2.png" alt="Layer 2 Yampad" width="300"/>
 </p>
 
+## Bill of materials
+
+| Qty | Item                                 | Notes                                     |
+|-----|--------------------------------------|-------------------------------------------|
+| 1   | Arduino Pro Micro                    |                                           |
+| 18  | Cherry MX compatible swtiches        |                                           |
+| 18  | SOD-123 1N4148/1N4148W diodes        |                                           |
+| 18  | Kailh PCB sockets CPG151101S11       |                                           |
+| 9   | WS2812B RGB LEDs                     |                                           |
+| 9   | SMD 0805 100nF capacitors            |                                           |
+| 1   | I2C 0.91" 128*32 OLED Display Module | The ones using SSD1306 driver IC over I2C |
+| 1   | 6mm*6mm button switch                |                                           |
+| 1   | YamPAD PCB                           |                                           |
+| 5   | M3 screws                            |                                           |
+
 ## Assembly guide
 
 WIP
