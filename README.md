@@ -22,7 +22,7 @@ The name comes from the acronym: **Y**et **A**nother **M**echanical num**PAD**, 
 The main goal of this project is to have a cheap, easy-to-build, feature-rich numpad which is completely open source.
 
 Features:
-- Cheap to build.
+- Cheap to build: the PCB can be manufactured for less than 1$ per piece.
 - Easy to source components.
 - Easy to build.
 - Hot swappable keys using *Kailh PCB sockets*.
@@ -55,7 +55,7 @@ Features:
 | 9   | SMD 0805 100nF capacitors            |                                           |
 | 1   | I2C 0.91" 128*32 OLED Display Module | The ones using SSD1306 driver IC over I2C |
 | 1   | 6mm*6mm button switch                |                                           |
-| 1   | YamPAD PCB                           |                                           |
+| 1   | YamPAD PCB                           | [Order from PCBWay](https://www.pcbway.com/project/shareproject/YamPAD_mechanical_numpad.html) |
 | 5   | M3 screws                            |                                           |
 
 ## Assembly guide
