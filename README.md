@@ -39,8 +39,9 @@ Features:
 ## Default Layout
 
 <p align="center">
-<img src="img/Layer1.png" alt="Layer 1 Yampad" width="300"/>
-<img src="img/Layer2.png" alt="Layer 2 Yampad" width="300"/>
+<img src="img/BL.png" alt="Layer 1 Yampad" width="250"/>
+<img src="img/NV.png" alt="Layer 2 Yampad" width="250"/>
+<img src="img/FN.png" alt="Layer 3 Yampad" width="250"/>
 </p>
 
 ## Bill of materials
