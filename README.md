@@ -82,7 +82,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 #### Pre-built
 
-I also added some pre-built .HEX file in the 'firmware/' folder to test the electronics.
+I also added a pre-built .HEX file in the 'firmware/' folder [here](https://github.com/mattdibi/yampad/tree/master/firmware) to test the electronics.
 
 ### Donations
 
