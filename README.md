@@ -84,6 +84,54 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 <img src="img/assembly/stage6.jpg" alt="Stage 6" width="250"/>
 </p>
 
+### Assembly details
+
+#### Step 1: WS2812 assembly
+
+<p align="center">
+<img src="img/assembly/step1-a.jpg" alt="Step 1-a" width="250"/>
+<img src="img/assembly/step1-b.jpg" alt="Step 1-b" width="250"/>
+<img src="img/assembly/step1-c.jpg" alt="Step 1-c" width="250"/>
+</p>
+
+#### Step 2: Capacitors assembly
+
+<p align="center">
+<img src="img/assembly/step2.jpg" alt="Step 2" width="600"/>
+</p>
+
+#### Step 3: Diodes assembly
+
+<p align="center">
+<img src="img/assembly/step3.jpg" alt="Step 3" width="600"/>
+</p>
+
+#### Step 4: Kailh PCB sockets assembly
+
+<p align="center">
+<img src="img/assembly/step4-a.jpg" alt="Step 4-a" width="300"/>
+<img src="img/assembly/step4-b.jpg" alt="Step 4-b" width="300"/>
+</p>
+
+#### Step 5: Reset switch
+
+<p align="center">
+<img src="img/assembly/step5.jpg" alt="Step 5" width="300"/>
+</p>
+
+#### Step 6: Electrical tape
+
+<p align="center">
+<img src="img/assembly/step6.jpg" alt="Step 6" width="300"/>
+</p>
+
+#### Step 7: Arduino assembly
+
+<p align="center">
+<img src="img/assembly/step7-a.jpg" alt="Step 7-a" width="300"/>
+<img src="img/assembly/step7-b.jpg" alt="Step 7-b" width="300"/>
+</p>
+
 ## Firmware
 
 For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad).
