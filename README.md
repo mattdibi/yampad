@@ -73,6 +73,17 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 8. Add the **OLED screen**
 9. Move to the firmware section and you should be set!
 
+<p align="center">
+<img src="img/assembly/stage1.jpg" alt="Stage 1" width="250"/>
+<img src="img/assembly/stage2.jpg" alt="Stage 2" width="250"/>
+<img src="img/assembly/stage3.jpg" alt="Stage 3" width="250"/>
+</p>
+<p align="center">
+<img src="img/assembly/stage4.jpg" alt="Stage 4" width="250"/>
+<img src="img/assembly/stage5.jpg" alt="Stage 5" width="250"/>
+<img src="img/assembly/stage6.jpg" alt="Stage 6" width="250"/>
+</p>
+
 ## Firmware
 
 For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad).
