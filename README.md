@@ -61,7 +61,17 @@ Features:
 
 ## Assembly guide
 
-WIP
+There's no wrong order for the YamPAD assembly with the exception of the Arduino/OLED/ResetButton. Here I will suggest an order because I found more comfortable to solder the components this way.
+
+1. Start with soldering the **WS2812 LEDs**. Start by applying solder to a pad, then heat it up while adding the component, finally solder the remaining pads.
+2. Now add the **0805 100nF caps**. Use the same technique as before.
+3. Add the **1N4148 diodes**.
+4. Add the **CPG151101S11 Kailh PCB sockets**.
+5. Add the **reset 6mm button switch**.
+6. Add some electrical tape just to be sure.
+7. Add the **Arduino Pro Micro** bottom side up.
+8. Add the **OLED screen**
+9. Move to the firmware section and you should be set!
 
 ## Firmware
 
