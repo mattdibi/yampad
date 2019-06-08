@@ -15,6 +15,11 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
 
 ## Rationale
 
+<p align="center">
+<img src="img/yampad2.jpg" alt="Yampad v2" width="600"/>
+</p>
+
+
 The Yampad is a Macropad/Numpad which uses Cherry MX style mechanical switches laid out in the usual numeric pad layout. The only difference comes from the bottom row, which uses a 4 keys configuration, thus enabling the use of the macropad as a nav cluster.
 
 The name comes from the acronym: **Y**et **A**nother **M**echanical num**PAD**, referring to the disruptive and innovative nature of the project.
