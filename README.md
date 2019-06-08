@@ -97,13 +97,14 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 #### Step 2: Capacitors assembly
 
 <p align="center">
-<img src="img/assembly/step2.jpg" alt="Step 2" width="600"/>
+<img src="img/assembly/step2-a.jpg" alt="Step 2-a" width="300"/>
+<img src="img/assembly/step2-b.jpg" alt="Step 2-b" width="300"/>
 </p>
 
 #### Step 3: Diodes assembly
 
 <p align="center">
-<img src="img/assembly/step3.jpg" alt="Step 3" width="600"/>
+<img src="img/assembly/step3.jpg" alt="Step 3" width="300"/>
 </p>
 
 #### Step 4: Kailh PCB sockets assembly
