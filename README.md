@@ -5,7 +5,7 @@
 <img src="img/qmk-badge-dark.png" alt="QMK" width="145"/>
 </p>
 
-The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware)](https://github.com/qmk/qmk_firmware) powered, hot-swappable, RGB-backlighted, OLED featured, mechanical numpad. This repository will be used to share information about the project and instruction on how to use and assembly the Yampad.
+The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware)](https://github.com/qmk/qmk_firmware) powered, hot-swappable, RGB-backlighted, OLED featured, mechanical numpad. This repository will be used to share information about the project and instruction on how to use and assemble the Yampad.
 
 <p align="center">
 <img src="img/yampad.jpg" alt="Yampad PCB" width="600"/>
