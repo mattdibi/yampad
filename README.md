@@ -53,7 +53,7 @@ Features:
 
 | Qty | Item                                 | Notes                                     |
 |-----|--------------------------------------|-------------------------------------------|
-| 1   | Arduino Pro Micro                    |                                           |
+| 1   | Arduino Pro Micro (ATmega32u4)       | a.k.a. SparkFun Pro Micro                 |
 | 18  | Cherry MX compatible swtiches        |                                           |
 | 18  | SOD-123 1N4148/1N4148W diodes        |                                           |
 | 18  | Kailh PCB sockets CPG151101S11       |                                           |
