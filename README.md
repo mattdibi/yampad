@@ -24,12 +24,19 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
 
 **Designer's bio**: [Mattia Dal Ben (aka u/TiaMaT102)](mailto:matthewdibi@gmail.com) obtained a master's degree in Electrical Engineering with a specialization in Computer Science at the University of Udine. Currently works as a Software Engineer in R&D department for a big IoT and Embedded Computers company.
 
+## Table of contents
+
+- [Rationale](#rationale)
+- [Default Layout](#default-layout)
+- [Bill of materials](#bill-of-materials)
+- [Assembly guide](#assembly-guide)
+- [Firmware](#firmware)
+
 ## Rationale
 
 <p align="center">
 <img src="img/yampad2.jpg" alt="Yampad v2" width="600"/>
 </p>
-
 
 The Yampad is a Macropad/Numpad which uses Cherry MX style mechanical switches laid out in the usual numeric pad layout. The only difference comes from the bottom row, which uses a 4 keys configuration, thus enabling the use of the macropad as a nav cluster.
 
