@@ -1,9 +1,20 @@
-# The Yampad project repository
-
 <p align="center">
 <img src="img/yampad_logo.png" alt="Yampad logo" width="450"/>
 <img src="img/qmk-badge-dark.png" alt="QMK" width="145"/>
 </p>
+
+<h3 align="center">The Yampad project repository</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+[![GitHub Issues](https://img.shields.io/github/issues/mattdibi/yampad.svg)](https://github.com/mattdibi/yampad/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/mattdibi/yampad.svg)](https://github.com/mattdibi/yampad/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+---
 
 The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware)](https://github.com/qmk/qmk_firmware) powered, hot-swappable, RGB-backlighted, OLED featured, mechanical numpad. This repository will be used to share information about the project and instruction on how to use and assemble the Yampad.
 
