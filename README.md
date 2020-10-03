@@ -100,6 +100,7 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 
 #### Step 1: WS2812 assembly
 
+<p align="left">The LEDs have a direction, this is indicated by a small cut out corner showing a triangle on the LED itself that must align with a corner indicated on the PCB as a visible corner angle. Top left on images below.</p>
 <p align="center">
 <img src="img/assembly/step1-a.jpg" alt="Step 1-a" width="250"/>
 <img src="img/assembly/step1-b.jpg" alt="Step 1-b" width="250"/>
@@ -115,6 +116,7 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 
 #### Step 3: Diodes assembly
 
+<p align="left">The diodes have a direction, the side indicated by the line on the diode must align to the closed side of the shape on the PCB. Left on the three images below.</p>
 <p align="center">
 <img src="img/assembly/step3-a.jpg" alt="Step 3-a" width="250"/>
 <img src="img/assembly/step3-b.jpg" alt="Step 3-b" width="250"/>
@@ -149,7 +151,7 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 
 ## Firmware
 
-For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad).
+For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad), making sure you checkout the yampad branch.
 
 Make example for this keyboard (after setting up your build environment):
 
