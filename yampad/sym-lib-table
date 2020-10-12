@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name yampad_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/yampad_v2-rescue.lib)(options "")(descr ""))
+)

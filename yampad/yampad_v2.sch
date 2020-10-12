@@ -1,0 +1,1209 @@
+EESchema Schematic File Version 4
+LIBS:yampad_v2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Yampad"
+Date "2019-04-28"
+Rev "2.0"
+Comp "Mattia Dal Ben"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L yampad_v2-rescue:ProMicro-keebio U0
+U 1 1 5CC5788E
+P 2150 3050
+F 0 "U0" H 2150 3887 60  0000 C CNN
+F 1 "ProMicro" H 2150 3781 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 3200 550 60  0001 C CNN
+F 3 "" V 3200 550 60  0001 C CNN
+	1    2150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K0
+U 1 1 5CC57CDD
+P 4750 2050
+F 0 "K0" H 4750 2283 60  0000 C CNN
+F 1 "KEYSW" H 4750 1950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 4750 2050 60  0001 C CNN
+F 3 "" H 4750 2050 60  0000 C CNN
+	1    4750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D0
+U 1 1 5CC5822F
+P 4450 2200
+F 0 "D0" V 4450 2121 50  0000 R CNN
+F 1 "D" V 4405 2121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 4450 2200 50  0001 C CNN
+F 3 "~" H 4450 2200 50  0001 C CNN
+	1    4450 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K1
+U 1 1 5CC5851B
+P 5550 2050
+F 0 "K1" H 5550 2283 60  0000 C CNN
+F 1 "KEYSW" H 5550 1950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 5550 2050 60  0001 C CNN
+F 3 "" H 5550 2050 60  0000 C CNN
+	1    5550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5CC58522
+P 5250 2200
+F 0 "D1" V 5250 2121 50  0000 R CNN
+F 1 "D" V 5205 2121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 5250 2200 50  0001 C CNN
+F 3 "~" H 5250 2200 50  0001 C CNN
+	1    5250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K2
+U 1 1 5CC5873D
+P 6350 2050
+F 0 "K2" H 6350 2283 60  0000 C CNN
+F 1 "KEYSW" H 6350 1950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 6350 2050 60  0001 C CNN
+F 3 "" H 6350 2050 60  0000 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5CC58744
+P 6050 2200
+F 0 "D2" V 6050 2121 50  0000 R CNN
+F 1 "D" V 6005 2121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6050 2200 50  0001 C CNN
+F 3 "~" H 6050 2200 50  0001 C CNN
+	1    6050 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K3
+U 1 1 5CC5874B
+P 7150 2050
+F 0 "K3" H 7150 2283 60  0000 C CNN
+F 1 "KEYSW" H 7150 1950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 7150 2050 60  0001 C CNN
+F 3 "" H 7150 2050 60  0000 C CNN
+	1    7150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5CC58752
+P 6850 2200
+F 0 "D3" V 6850 2121 50  0000 R CNN
+F 1 "D" V 6805 2121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6850 2200 50  0001 C CNN
+F 3 "~" H 6850 2200 50  0001 C CNN
+	1    6850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K10
+U 1 1 5CC58AA2
+P 4750 2550
+F 0 "K10" H 4750 2783 60  0000 C CNN
+F 1 "KEYSW" H 4750 2450 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 4750 2550 60  0001 C CNN
+F 3 "" H 4750 2550 60  0000 C CNN
+	1    4750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5CC58AA9
+P 4450 2700
+F 0 "D10" V 4450 2621 50  0000 R CNN
+F 1 "D" V 4405 2621 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 4450 2700 50  0001 C CNN
+F 3 "~" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K11
+U 1 1 5CC58AB0
+P 5550 2550
+F 0 "K11" H 5550 2783 60  0000 C CNN
+F 1 "KEYSW" H 5550 2450 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 5550 2550 60  0001 C CNN
+F 3 "" H 5550 2550 60  0000 C CNN
+	1    5550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5CC58AB7
+P 5250 2700
+F 0 "D11" V 5250 2621 50  0000 R CNN
+F 1 "D" V 5205 2621 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 5250 2700 50  0001 C CNN
+F 3 "~" H 5250 2700 50  0001 C CNN
+	1    5250 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K12
+U 1 1 5CC58ABE
+P 6350 2550
+F 0 "K12" H 6350 2783 60  0000 C CNN
+F 1 "KEYSW" H 6350 2450 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 6350 2550 60  0001 C CNN
+F 3 "" H 6350 2550 60  0000 C CNN
+	1    6350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5CC58AC5
+P 6050 2700
+F 0 "D12" V 6050 2621 50  0000 R CNN
+F 1 "D" V 6005 2621 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6050 2700 50  0001 C CNN
+F 3 "~" H 6050 2700 50  0001 C CNN
+	1    6050 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K13
+U 1 1 5CC58ACC
+P 7150 2850
+F 0 "K13" H 7150 3083 60  0000 C CNN
+F 1 "KEYSW" H 7150 2750 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 7150 2850 60  0001 C CNN
+F 3 "" H 7150 2850 60  0000 C CNN
+	1    7150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5CC58AD3
+P 6850 3000
+F 0 "D13" V 6850 2921 50  0000 R CNN
+F 1 "D" V 6805 2921 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6850 3000 50  0001 C CNN
+F 3 "~" H 6850 3000 50  0001 C CNN
+	1    6850 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K20
+U 1 1 5CC58F1F
+P 4750 3050
+F 0 "K20" H 4750 3283 60  0000 C CNN
+F 1 "KEYSW" H 4750 2950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 4750 3050 60  0001 C CNN
+F 3 "" H 4750 3050 60  0000 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5CC58F26
+P 4450 3200
+F 0 "D20" V 4450 3121 50  0000 R CNN
+F 1 "D" V 4405 3121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 4450 3200 50  0001 C CNN
+F 3 "~" H 4450 3200 50  0001 C CNN
+	1    4450 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K21
+U 1 1 5CC58F2D
+P 5550 3050
+F 0 "K21" H 5550 3283 60  0000 C CNN
+F 1 "KEYSW" H 5550 2950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 5550 3050 60  0001 C CNN
+F 3 "" H 5550 3050 60  0000 C CNN
+	1    5550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5CC58F34
+P 5250 3200
+F 0 "D21" V 5250 3121 50  0000 R CNN
+F 1 "D" V 5205 3121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 5250 3200 50  0001 C CNN
+F 3 "~" H 5250 3200 50  0001 C CNN
+	1    5250 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K22
+U 1 1 5CC58F3B
+P 6350 3050
+F 0 "K22" H 6350 3283 60  0000 C CNN
+F 1 "KEYSW" H 6350 2950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 6350 3050 60  0001 C CNN
+F 3 "" H 6350 3050 60  0000 C CNN
+	1    6350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5CC58F42
+P 6050 3200
+F 0 "D22" V 6050 3121 50  0000 R CNN
+F 1 "D" V 6005 3121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6050 3200 50  0001 C CNN
+F 3 "~" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K30
+U 1 1 5CC58F57
+P 4750 3550
+F 0 "K30" H 4750 3783 60  0000 C CNN
+F 1 "KEYSW" H 4750 3450 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 4750 3550 60  0001 C CNN
+F 3 "" H 4750 3550 60  0000 C CNN
+	1    4750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5CC58F5E
+P 4450 3700
+F 0 "D30" V 4450 3621 50  0000 R CNN
+F 1 "D" V 4405 3621 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 4450 3700 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K31
+U 1 1 5CC58F65
+P 5550 3550
+F 0 "K31" H 5550 3783 60  0000 C CNN
+F 1 "KEYSW" H 5550 3450 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 5550 3550 60  0001 C CNN
+F 3 "" H 5550 3550 60  0000 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5CC58F6C
+P 5250 3700
+F 0 "D31" V 5250 3621 50  0000 R CNN
+F 1 "D" V 5205 3621 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 5250 3700 50  0001 C CNN
+F 3 "~" H 5250 3700 50  0001 C CNN
+	1    5250 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K32
+U 1 1 5CC58F73
+P 6350 3550
+F 0 "K32" H 6350 3783 60  0000 C CNN
+F 1 "KEYSW" H 6350 3450 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 6350 3550 60  0001 C CNN
+F 3 "" H 6350 3550 60  0000 C CNN
+	1    6350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5CC58F7A
+P 6050 3700
+F 0 "D32" V 6050 3621 50  0000 R CNN
+F 1 "D" V 6005 3621 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6050 3700 50  0001 C CNN
+F 3 "~" H 6050 3700 50  0001 C CNN
+	1    6050 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K40
+U 1 1 5CC591A5
+P 4750 4050
+F 0 "K40" H 4750 4283 60  0000 C CNN
+F 1 "KEYSW" H 4750 3950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 4750 4050 60  0001 C CNN
+F 3 "" H 4750 4050 60  0000 C CNN
+	1    4750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5CC591AC
+P 4450 4200
+F 0 "D40" V 4450 4121 50  0000 R CNN
+F 1 "D" V 4405 4121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 4450 4200 50  0001 C CNN
+F 3 "~" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K41
+U 1 1 5CC591B3
+P 5550 4050
+F 0 "K41" H 5550 4283 60  0000 C CNN
+F 1 "KEYSW" H 5550 3950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 5550 4050 60  0001 C CNN
+F 3 "" H 5550 4050 60  0000 C CNN
+	1    5550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5CC591BA
+P 5250 4200
+F 0 "D41" V 5250 4121 50  0000 R CNN
+F 1 "D" V 5205 4121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 5250 4200 50  0001 C CNN
+F 3 "~" H 5250 4200 50  0001 C CNN
+	1    5250 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K42
+U 1 1 5CC591C1
+P 6350 4050
+F 0 "K42" H 6350 4283 60  0000 C CNN
+F 1 "KEYSW" H 6350 3950 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 6350 4050 60  0001 C CNN
+F 3 "" H 6350 4050 60  0000 C CNN
+	1    6350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5CC591C8
+P 6050 4200
+F 0 "D42" V 6050 4121 50  0000 R CNN
+F 1 "D" V 6005 4121 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6050 4200 50  0001 C CNN
+F 3 "~" H 6050 4200 50  0001 C CNN
+	1    6050 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yampad_v2-rescue:KEYSW-canadian_parts K43
+U 1 1 5CC591CF
+P 7150 3750
+F 0 "K43" H 7150 3983 60  0000 C CNN
+F 1 "KEYSW" H 7150 3650 60  0001 C CNN
+F 2 "kailh-pcb-sockets:Kailh-PCB-Socket-1U-Cutout" H 7150 3750 60  0001 C CNN
+F 3 "" H 7150 3750 60  0000 C CNN
+	1    7150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5CC591D6
+P 6850 3900
+F 0 "D43" V 6850 3821 50  0000 R CNN
+F 1 "D" V 6805 3821 50  0001 R CNN
+F 2 "canadian_footprints:D_SOD123_axial-dual" H 6850 3900 50  0001 C CNN
+F 3 "~" H 6850 3900 50  0001 C CNN
+	1    6850 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 1850 5050 2050
+Wire Wire Line
+	5050 2050 5050 2550
+Connection ~ 5050 2050
+Wire Wire Line
+	5050 2550 5050 3050
+Connection ~ 5050 2550
+Wire Wire Line
+	5050 3050 5050 3550
+Connection ~ 5050 3050
+Wire Wire Line
+	5050 3550 5050 4050
+Connection ~ 5050 3550
+Wire Wire Line
+	5850 1850 5850 2050
+Wire Wire Line
+	5850 2050 5850 2550
+Connection ~ 5850 2050
+Wire Wire Line
+	5850 2550 5850 3050
+Connection ~ 5850 2550
+Wire Wire Line
+	5850 3050 5850 3550
+Connection ~ 5850 3050
+Wire Wire Line
+	5850 3550 5850 4050
+Connection ~ 5850 3550
+Wire Wire Line
+	6650 1850 6650 2050
+Wire Wire Line
+	6650 2050 6650 2550
+Connection ~ 6650 2050
+Wire Wire Line
+	6650 2550 6650 3050
+Connection ~ 6650 2550
+Wire Wire Line
+	6650 3050 6650 3550
+Connection ~ 6650 3050
+Wire Wire Line
+	6650 3550 6650 4050
+Connection ~ 6650 3550
+Wire Wire Line
+	7450 1850 7450 2050
+Wire Wire Line
+	7450 2050 7450 2850
+Connection ~ 7450 2050
+Wire Wire Line
+	7450 2850 7450 3750
+Connection ~ 7450 2850
+Wire Wire Line
+	4250 2350 4450 2350
+Wire Wire Line
+	4450 2350 5250 2350
+Connection ~ 4450 2350
+Wire Wire Line
+	5250 2350 6050 2350
+Connection ~ 5250 2350
+Wire Wire Line
+	6050 2350 6850 2350
+Connection ~ 6050 2350
+Wire Wire Line
+	4250 2850 4450 2850
+Wire Wire Line
+	4450 2850 5250 2850
+Connection ~ 4450 2850
+Wire Wire Line
+	5250 2850 6050 2850
+Connection ~ 5250 2850
+Wire Wire Line
+	6050 2850 6750 2850
+Wire Wire Line
+	6750 2850 6750 3150
+Wire Wire Line
+	6750 3150 6850 3150
+Connection ~ 6050 2850
+Wire Wire Line
+	4250 3350 4450 3350
+Wire Wire Line
+	4450 3350 5250 3350
+Connection ~ 4450 3350
+Wire Wire Line
+	5250 3350 6050 3350
+Connection ~ 5250 3350
+Wire Wire Line
+	4250 3850 4450 3850
+Wire Wire Line
+	4450 3850 5250 3850
+Connection ~ 4450 3850
+Wire Wire Line
+	5250 3850 6050 3850
+Connection ~ 5250 3850
+Wire Wire Line
+	4250 4350 4450 4350
+Wire Wire Line
+	4450 4350 5250 4350
+Connection ~ 4450 4350
+Wire Wire Line
+	5250 4350 6050 4350
+Connection ~ 5250 4350
+Wire Wire Line
+	6050 4350 6850 4350
+Wire Wire Line
+	6850 4350 6850 4050
+Connection ~ 6050 4350
+Text GLabel 5050 1850 1    50   Input ~ 0
+COL0
+Text GLabel 5850 1850 1    50   Input ~ 0
+COL1
+Text GLabel 6650 1850 1    50   Input ~ 0
+COL2
+Text GLabel 7450 1850 1    50   Input ~ 0
+COL3
+Text GLabel 4250 2350 0    50   Input ~ 0
+ROW0
+Text GLabel 4250 2850 0    50   Input ~ 0
+ROW1
+Text GLabel 4250 3350 0    50   Input ~ 0
+ROW2
+Text GLabel 4250 3850 0    50   Input ~ 0
+ROW3
+Text GLabel 4250 4350 0    50   Input ~ 0
+ROW4
+$Comp
+L LED:WS2812B LED0
+U 1 1 5CC5FBCF
+P 1350 5150
+F 0 "LED0" H 1691 5196 50  0000 L CNN
+F 1 "WS2812B" H 1691 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1400 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1450 4775 50  0001 L TNN
+	1    1350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5CC60983
+P 1350 4850
+F 0 "#PWR0101" H 1350 4700 50  0001 C CNN
+F 1 "VCC" H 1367 5023 50  0000 C CNN
+F 2 "" H 1350 4850 50  0001 C CNN
+F 3 "" H 1350 4850 50  0001 C CNN
+	1    1350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CC60A56
+P 1350 5450
+F 0 "#PWR0102" H 1350 5200 50  0001 C CNN
+F 1 "GND" H 1355 5277 50  0000 C CNN
+F 2 "" H 1350 5450 50  0001 C CNN
+F 3 "" H 1350 5450 50  0001 C CNN
+	1    1350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C0
+U 1 1 5CC60C70
+P 1500 4850
+F 0 "C0" V 1248 4850 50  0000 C CNN
+F 1 "104" V 1339 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 4700 50  0001 C CNN
+F 3 "~" H 1500 4850 50  0001 C CNN
+	1    1500 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CC60D1C
+P 1650 4850
+F 0 "#PWR0103" H 1650 4600 50  0001 C CNN
+F 1 "GND" H 1655 4677 50  0000 C CNN
+F 2 "" H 1650 4850 50  0001 C CNN
+F 3 "" H 1650 4850 50  0001 C CNN
+	1    1650 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 4850
+Text GLabel 1050 5150 0    50   Input ~ 0
+LEDs
+$Comp
+L LED:WS2812B LED1
+U 1 1 5CC61E88
+P 2250 5150
+F 0 "LED1" H 2591 5196 50  0000 L CNN
+F 1 "WS2812B" H 2591 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2300 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2350 4775 50  0001 L TNN
+	1    2250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5CC61E8F
+P 2250 4850
+F 0 "#PWR0104" H 2250 4700 50  0001 C CNN
+F 1 "VCC" H 2267 5023 50  0000 C CNN
+F 2 "" H 2250 4850 50  0001 C CNN
+F 3 "" H 2250 4850 50  0001 C CNN
+	1    2250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5CC61E95
+P 2250 5450
+F 0 "#PWR0105" H 2250 5200 50  0001 C CNN
+F 1 "GND" H 2255 5277 50  0000 C CNN
+F 2 "" H 2250 5450 50  0001 C CNN
+F 3 "" H 2250 5450 50  0001 C CNN
+	1    2250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5CC61E9B
+P 2400 4850
+F 0 "C1" V 2148 4850 50  0000 C CNN
+F 1 "104" V 2239 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2438 4700 50  0001 C CNN
+F 3 "~" H 2400 4850 50  0001 C CNN
+	1    2400 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5CC61EA2
+P 2550 4850
+F 0 "#PWR0106" H 2550 4600 50  0001 C CNN
+F 1 "GND" H 2555 4677 50  0000 C CNN
+F 2 "" H 2550 4850 50  0001 C CNN
+F 3 "" H 2550 4850 50  0001 C CNN
+	1    2550 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 4850
+$Comp
+L LED:WS2812B LED2
+U 1 1 5CC624EE
+P 3150 5150
+F 0 "LED2" H 3491 5196 50  0000 L CNN
+F 1 "WS2812B" H 3491 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3200 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3250 4775 50  0001 L TNN
+	1    3150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5CC624F5
+P 3150 4850
+F 0 "#PWR0107" H 3150 4700 50  0001 C CNN
+F 1 "VCC" H 3167 5023 50  0000 C CNN
+F 2 "" H 3150 4850 50  0001 C CNN
+F 3 "" H 3150 4850 50  0001 C CNN
+	1    3150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5CC624FB
+P 3150 5450
+F 0 "#PWR0108" H 3150 5200 50  0001 C CNN
+F 1 "GND" H 3155 5277 50  0000 C CNN
+F 2 "" H 3150 5450 50  0001 C CNN
+F 3 "" H 3150 5450 50  0001 C CNN
+	1    3150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5CC62501
+P 3300 4850
+F 0 "C2" V 3048 4850 50  0000 C CNN
+F 1 "104" V 3139 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 4700 50  0001 C CNN
+F 3 "~" H 3300 4850 50  0001 C CNN
+	1    3300 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5CC62508
+P 3450 4850
+F 0 "#PWR0109" H 3450 4600 50  0001 C CNN
+F 1 "GND" H 3455 4677 50  0000 C CNN
+F 2 "" H 3450 4850 50  0001 C CNN
+F 3 "" H 3450 4850 50  0001 C CNN
+	1    3450 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 4850
+$Comp
+L LED:WS2812B LED3
+U 1 1 5CC62C0F
+P 4050 5150
+F 0 "LED3" H 4391 5196 50  0000 L CNN
+F 1 "WS2812B" H 4391 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4100 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4150 4775 50  0001 L TNN
+	1    4050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5CC62C16
+P 4050 4850
+F 0 "#PWR0110" H 4050 4700 50  0001 C CNN
+F 1 "VCC" H 4067 5023 50  0000 C CNN
+F 2 "" H 4050 4850 50  0001 C CNN
+F 3 "" H 4050 4850 50  0001 C CNN
+	1    4050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5CC62C1C
+P 4050 5450
+F 0 "#PWR0111" H 4050 5200 50  0001 C CNN
+F 1 "GND" H 4055 5277 50  0000 C CNN
+F 2 "" H 4050 5450 50  0001 C CNN
+F 3 "" H 4050 5450 50  0001 C CNN
+	1    4050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5CC62C22
+P 4200 4850
+F 0 "C3" V 3948 4850 50  0000 C CNN
+F 1 "104" V 4039 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4238 4700 50  0001 C CNN
+F 3 "~" H 4200 4850 50  0001 C CNN
+	1    4200 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5CC62C29
+P 4350 4850
+F 0 "#PWR0112" H 4350 4600 50  0001 C CNN
+F 1 "GND" H 4355 4677 50  0000 C CNN
+F 2 "" H 4350 4850 50  0001 C CNN
+F 3 "" H 4350 4850 50  0001 C CNN
+	1    4350 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 4850
+$Comp
+L LED:WS2812B LED4
+U 1 1 5CC62C30
+P 4950 5150
+F 0 "LED4" H 5291 5196 50  0000 L CNN
+F 1 "WS2812B" H 5291 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5000 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5050 4775 50  0001 L TNN
+	1    4950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0113
+U 1 1 5CC62C37
+P 4950 4850
+F 0 "#PWR0113" H 4950 4700 50  0001 C CNN
+F 1 "VCC" H 4967 5023 50  0000 C CNN
+F 2 "" H 4950 4850 50  0001 C CNN
+F 3 "" H 4950 4850 50  0001 C CNN
+	1    4950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5CC62C3D
+P 4950 5450
+F 0 "#PWR0114" H 4950 5200 50  0001 C CNN
+F 1 "GND" H 4955 5277 50  0000 C CNN
+F 2 "" H 4950 5450 50  0001 C CNN
+F 3 "" H 4950 5450 50  0001 C CNN
+	1    4950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5CC62C43
+P 5100 4850
+F 0 "C4" V 4848 4850 50  0000 C CNN
+F 1 "104" V 4939 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5138 4700 50  0001 C CNN
+F 3 "~" H 5100 4850 50  0001 C CNN
+	1    5100 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5CC62C4A
+P 5250 4850
+F 0 "#PWR0115" H 5250 4600 50  0001 C CNN
+F 1 "GND" H 5255 4677 50  0000 C CNN
+F 2 "" H 5250 4850 50  0001 C CNN
+F 3 "" H 5250 4850 50  0001 C CNN
+	1    5250 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 4850
+$Comp
+L LED:WS2812B LED5
+U 1 1 5CC635B4
+P 5850 5150
+F 0 "LED5" H 6191 5196 50  0000 L CNN
+F 1 "WS2812B" H 6191 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5900 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 4775 50  0001 L TNN
+	1    5850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0116
+U 1 1 5CC635BB
+P 5850 4850
+F 0 "#PWR0116" H 5850 4700 50  0001 C CNN
+F 1 "VCC" H 5867 5023 50  0000 C CNN
+F 2 "" H 5850 4850 50  0001 C CNN
+F 3 "" H 5850 4850 50  0001 C CNN
+	1    5850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5CC635C1
+P 5850 5450
+F 0 "#PWR0117" H 5850 5200 50  0001 C CNN
+F 1 "GND" H 5855 5277 50  0000 C CNN
+F 2 "" H 5850 5450 50  0001 C CNN
+F 3 "" H 5850 5450 50  0001 C CNN
+	1    5850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5CC635C7
+P 6000 4850
+F 0 "C5" V 5748 4850 50  0000 C CNN
+F 1 "104" V 5839 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6038 4700 50  0001 C CNN
+F 3 "~" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5CC635CE
+P 6150 4850
+F 0 "#PWR0118" H 6150 4600 50  0001 C CNN
+F 1 "GND" H 6155 4677 50  0000 C CNN
+F 2 "" H 6150 4850 50  0001 C CNN
+F 3 "" H 6150 4850 50  0001 C CNN
+	1    6150 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 4850
+$Comp
+L LED:WS2812B LED6
+U 1 1 5CC635D5
+P 6750 5150
+F 0 "LED6" H 7091 5196 50  0000 L CNN
+F 1 "WS2812B" H 7091 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 4775 50  0001 L TNN
+	1    6750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0119
+U 1 1 5CC635DC
+P 6750 4850
+F 0 "#PWR0119" H 6750 4700 50  0001 C CNN
+F 1 "VCC" H 6767 5023 50  0000 C CNN
+F 2 "" H 6750 4850 50  0001 C CNN
+F 3 "" H 6750 4850 50  0001 C CNN
+	1    6750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5CC635E2
+P 6750 5450
+F 0 "#PWR0120" H 6750 5200 50  0001 C CNN
+F 1 "GND" H 6755 5277 50  0000 C CNN
+F 2 "" H 6750 5450 50  0001 C CNN
+F 3 "" H 6750 5450 50  0001 C CNN
+	1    6750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5CC635E8
+P 6900 4850
+F 0 "C6" V 6648 4850 50  0000 C CNN
+F 1 "104" V 6739 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 4700 50  0001 C CNN
+F 3 "~" H 6900 4850 50  0001 C CNN
+	1    6900 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5CC635EF
+P 7050 4850
+F 0 "#PWR0121" H 7050 4600 50  0001 C CNN
+F 1 "GND" H 7055 4677 50  0000 C CNN
+F 2 "" H 7050 4850 50  0001 C CNN
+F 3 "" H 7050 4850 50  0001 C CNN
+	1    7050 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 4850
+$Comp
+L LED:WS2812B LED7
+U 1 1 5CC635F6
+P 7650 5150
+F 0 "LED7" H 7991 5196 50  0000 L CNN
+F 1 "WS2812B" H 7991 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7700 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7750 4775 50  0001 L TNN
+	1    7650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0122
+U 1 1 5CC635FD
+P 7650 4850
+F 0 "#PWR0122" H 7650 4700 50  0001 C CNN
+F 1 "VCC" H 7667 5023 50  0000 C CNN
+F 2 "" H 7650 4850 50  0001 C CNN
+F 3 "" H 7650 4850 50  0001 C CNN
+	1    7650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5CC63603
+P 7650 5450
+F 0 "#PWR0123" H 7650 5200 50  0001 C CNN
+F 1 "GND" H 7655 5277 50  0000 C CNN
+F 2 "" H 7650 5450 50  0001 C CNN
+F 3 "" H 7650 5450 50  0001 C CNN
+	1    7650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5CC63609
+P 7800 4850
+F 0 "C7" V 7548 4850 50  0000 C CNN
+F 1 "104" V 7639 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7838 4700 50  0001 C CNN
+F 3 "~" H 7800 4850 50  0001 C CNN
+	1    7800 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5CC63610
+P 7950 4850
+F 0 "#PWR0124" H 7950 4600 50  0001 C CNN
+F 1 "GND" H 7955 4677 50  0000 C CNN
+F 2 "" H 7950 4850 50  0001 C CNN
+F 3 "" H 7950 4850 50  0001 C CNN
+	1    7950 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 4850
+$Comp
+L LED:WS2812B LED8
+U 1 1 5CC63617
+P 8550 5150
+F 0 "LED8" H 8891 5196 50  0000 L CNN
+F 1 "WS2812B" H 8891 5105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8600 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8650 4775 50  0001 L TNN
+	1    8550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0125
+U 1 1 5CC6361E
+P 8550 4850
+F 0 "#PWR0125" H 8550 4700 50  0001 C CNN
+F 1 "VCC" H 8567 5023 50  0000 C CNN
+F 2 "" H 8550 4850 50  0001 C CNN
+F 3 "" H 8550 4850 50  0001 C CNN
+	1    8550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5CC63624
+P 8550 5450
+F 0 "#PWR0126" H 8550 5200 50  0001 C CNN
+F 1 "GND" H 8555 5277 50  0000 C CNN
+F 2 "" H 8550 5450 50  0001 C CNN
+F 3 "" H 8550 5450 50  0001 C CNN
+	1    8550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5CC6362A
+P 8700 4850
+F 0 "C8" V 8448 4850 50  0000 C CNN
+F 1 "104" V 8539 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8738 4700 50  0001 C CNN
+F 3 "~" H 8700 4850 50  0001 C CNN
+	1    8700 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5CC63631
+P 8850 4850
+F 0 "#PWR0127" H 8850 4600 50  0001 C CNN
+F 1 "GND" H 8855 4677 50  0000 C CNN
+F 2 "" H 8850 4850 50  0001 C CNN
+F 3 "" H 8850 4850 50  0001 C CNN
+	1    8850 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 4850
+Wire Wire Line
+	1650 5150 1950 5150
+Wire Wire Line
+	2550 5150 2850 5150
+Wire Wire Line
+	3450 5150 3750 5150
+Wire Wire Line
+	4350 5150 4650 5150
+Wire Wire Line
+	5250 5150 5550 5150
+Wire Wire Line
+	6150 5150 6450 5150
+Wire Wire Line
+	7050 5150 7350 5150
+Wire Wire Line
+	7950 5150 8250 5150
+NoConn ~ 8850 5150
+$Comp
+L Connector_Generic:Conn_01x04 JOLED1
+U 1 1 5CC74D87
+P 2550 1200
+F 0 "JOLED1" H 2630 1192 50  0000 L CNN
+F 1 "Conn_01x04" H 2630 1101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 2550 1200 50  0001 C CNN
+F 3 "~" H 2550 1200 50  0001 C CNN
+	1    2550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0128
+U 1 1 5CC7506B
+P 2350 1300
+F 0 "#PWR0128" H 2350 1150 50  0001 C CNN
+F 1 "VCC" V 2368 1427 50  0000 L CNN
+F 2 "" H 2350 1300 50  0001 C CNN
+F 3 "" H 2350 1300 50  0001 C CNN
+	1    2350 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 5CC7518E
+P 2350 1400
+F 0 "#PWR0129" H 2350 1150 50  0001 C CNN
+F 1 "GND" V 2355 1272 50  0000 R CNN
+F 2 "" H 2350 1400 50  0001 C CNN
+F 3 "" H 2350 1400 50  0001 C CNN
+	1    2350 1400
+	0    1    1    0   
+$EndComp
+Text GLabel 2350 1100 0    50   Input ~ 0
+SDA
+Text GLabel 2350 1200 0    50   Input ~ 0
+SCL
+Text GLabel 1450 2900 0    50   Input ~ 0
+SDA
+Text GLabel 1450 3000 0    50   Input ~ 0
+SCL
+$Comp
+L power:VCC #PWR0130
+U 1 1 5CC76A20
+P 2850 2800
+F 0 "#PWR0130" H 2850 2650 50  0001 C CNN
+F 1 "VCC" V 2867 2928 50  0000 L CNN
+F 2 "" H 2850 2800 50  0001 C CNN
+F 3 "" H 2850 2800 50  0001 C CNN
+	1    2850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 5CC76B0B
+P 2850 2600
+F 0 "#PWR0131" H 2850 2350 50  0001 C CNN
+F 1 "GND" V 2855 2472 50  0000 R CNN
+F 2 "" H 2850 2600 50  0001 C CNN
+F 3 "" H 2850 2600 50  0001 C CNN
+	1    2850 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW0
+U 1 1 5CC76CE6
+P 3650 1250
+F 0 "SW0" H 3650 1535 50  0000 C CNN
+F 1 "SW_Push" H 3650 1444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3650 1450 50  0001 C CNN
+F 3 "" H 3650 1450 50  0001 C CNN
+	1    3650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 5CC774ED
+P 3450 1250
+F 0 "#PWR0132" H 3450 1000 50  0001 C CNN
+F 1 "GND" H 3455 1077 50  0000 C CNN
+F 2 "" H 3450 1250 50  0001 C CNN
+F 3 "" H 3450 1250 50  0001 C CNN
+	1    3450 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 2700 2    50   Input ~ 0
+RST
+Text GLabel 3850 1250 2    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR0133
+U 1 1 5CC77FA7
+P 1450 2700
+F 0 "#PWR0133" H 1450 2450 50  0001 C CNN
+F 1 "GND" V 1455 2572 50  0000 R CNN
+F 2 "" H 1450 2700 50  0001 C CNN
+F 3 "" H 1450 2700 50  0001 C CNN
+	1    1450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 5CC78096
+P 1450 2800
+F 0 "#PWR0134" H 1450 2550 50  0001 C CNN
+F 1 "GND" V 1455 2672 50  0000 R CNN
+F 2 "" H 1450 2800 50  0001 C CNN
+F 3 "" H 1450 2800 50  0001 C CNN
+	1    1450 2800
+	0    1    1    0   
+$EndComp
+Text GLabel 2850 2900 2    50   Input ~ 0
+LEDs
+Text GLabel 1450 3600 0    50   Input ~ 0
+ROW4
+Text GLabel 1450 3500 0    50   Input ~ 0
+ROW3
+Text GLabel 1450 3400 0    50   Input ~ 0
+ROW2
+Text GLabel 1450 3300 0    50   Input ~ 0
+ROW1
+Text GLabel 1450 3200 0    50   Input ~ 0
+ROW0
+Text GLabel 2850 3600 2    50   Input ~ 0
+COL3
+Text GLabel 2850 3500 2    50   Input ~ 0
+COL2
+Text GLabel 2850 3400 2    50   Input ~ 0
+COL1
+Text GLabel 2850 3300 2    50   Input ~ 0
+COL0
+Text GLabel 2850 3200 2    50   Input ~ 0
+PF7
+NoConn ~ 2850 2500
+NoConn ~ 1450 2500
+NoConn ~ 1450 2600
+NoConn ~ 1450 3100
+NoConn ~ 2850 3000
+NoConn ~ 2850 3100
+$EndSCHEMATC
