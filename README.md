@@ -151,9 +151,7 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 
 ## Firmware
 
-For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad), making sure you checkout the yampad branch.
-
-Make example for this keyboard (after setting up your build environment):
+The firmware is available through [QMK firmware repository](https://github.com/qmk/qmk_firmware/tree/master/keyboards/yampad). Make example for this keyboard (after setting up your build environment):
 
 ```sh
 make yampad:default
@@ -162,7 +160,7 @@ make yampad:default
 Example of flashing this keyboard:
 
 ```sh
-make yampad:default:avrdude
+make yampad:default:flash
 ```
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
