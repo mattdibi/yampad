@@ -174,6 +174,17 @@ I also added a pre-built .HEX file in the 'firmware/' folder [here](https://gith
 
 I also added a porting to via .HEX file in the 'firmware/via_support' folder [here](https://github.com/mattdibi/yampad/tree/master/firmware/via_support) to load use .json file in via apps.
 
+#### Stacked Acrylic Case
+
+<p align="center">
+<img src="img/acrylic_case/yampad (2 of 10).jpg" alt="Yampad Acrylic Case" width="300"/>
+<img src="img/acrylic_case/yampad (4 of 10).jpg" alt="Yampad Acrylic Case" width="300"/>
+</p>
+
+<p align="center">
+<img src="img/acrylic_case/yampad (10 of 10).jpg" alt="Yampad Acrylic Case" width="300"/>
+</p>
+
 ### Donations
 
 If you've read this far and found something useful, please consider donating to help me maintain and further develop this project.
