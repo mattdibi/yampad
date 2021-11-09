@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/mattdibi/yampad.svg)](https://github.com/mattdibi/yampad/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/mattdibi/yampad.svg)](https://github.com/mattdibi/yampad/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
@@ -45,10 +45,11 @@ The name comes from the acronym: **Y**et **A**nother **M**echanical num**PAD**, 
 The main goal of this project is to have a cheap, easy-to-build, feature-rich numpad which is completely open source.
 
 Features:
-- Cheap to build: the PCB can be manufactured for less than 1$ per piece.
+
+- Cheap to build: the PCB can be manufactured for less than 1\$ per piece.
 - Easy to source components.
 - Easy to build.
-- Hot swappable keys using *Kailh PCB sockets*.
+- Hot swappable keys using _Kailh PCB sockets_.
 - Arduino Pro Micro powered.
 - QMK compatible.
 - RGB backlighting support (optional).
@@ -69,18 +70,18 @@ Features:
 
 ## Bill of materials
 
-| Qty | Item                                 | Notes                                     |
-|-----|--------------------------------------|-------------------------------------------|
-| 1   | Arduino Pro Micro (ATmega32u4)       | a.k.a. SparkFun Pro Micro                 |
-| 18  | Cherry MX compatible swtiches        |                                           |
-| 18  | SOD-123 1N4148/1N4148W diodes        |                                           |
-| 18  | Kailh PCB sockets CPG151101S11       |                                           |
-| 9   | WS2812B RGB LEDs                     |                                           |
-| 9   | SMD 0805 100nF capacitors            |                                           |
-| 1   | I2C 0.91" 128*32 OLED Display Module | The ones using SSD1306 driver IC over I2C |
-| 1   | 6mm*6mm button switch                |                                           |
-| 1   | YamPAD PCB                           | [Order from PCBWay](https://www.pcbway.com/project/shareproject/YamPAD_mechanical_numpad.html) |
-| 5   | M3 screws                            |                                           |
+| Qty | Item                                  | Notes                                                                                          |
+| --- | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| 1   | Arduino Pro Micro (ATmega32u4)        | a.k.a. SparkFun Pro Micro                                                                      |
+| 18  | Cherry MX compatible swtiches         |                                                                                                |
+| 18  | SOD-123 1N4148/1N4148W diodes         |                                                                                                |
+| 18  | Kailh PCB sockets CPG151101S11        |                                                                                                |
+| 9   | WS2812B RGB LEDs                      |                                                                                                |
+| 9   | SMD 0805 100nF capacitors             |                                                                                                |
+| 1   | I2C 0.91" 128\*32 OLED Display Module | The ones using SSD1306 driver IC over I2C                                                      |
+| 1   | 6mm\*6mm button switch                |                                                                                                |
+| 1   | YamPAD PCB                            | [Order from PCBWay](https://www.pcbway.com/project/shareproject/YamPAD_mechanical_numpad.html) |
+| 5   | M3 screws                             |                                                                                                |
 
 ## Assembly guide
 
@@ -168,6 +169,10 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 #### Pre-built
 
 I also added a pre-built .HEX file in the 'firmware/' folder [here](https://github.com/mattdibi/yampad/tree/master/firmware) to test the electronics.
+
+#### Via Support
+
+I also added a porting to via .HEX file in the 'firmware/via_support' folder [here](https://github.com/mattdibi/yampad/tree/master/firmware/via_support) to load use .json file in via apps.
 
 ### Donations
 
