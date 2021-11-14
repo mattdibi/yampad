@@ -184,7 +184,9 @@ I also added a porting to via .HEX file in the 'firmware/via_support' folder [he
 <p align="center">
 <img src="img/acrylic_case/yampad (10 of 10).jpg" alt="Yampad Acrylic Case" width="300"/>
 </p>
+
 Acrylic case image gallery [here](https://github.com/mattdibi/yampad/tree/master/img/acrylic_case/).
+
 ### Donations
 
 If you've read this far and found something useful, please consider donating to help me maintain and further develop this project.
