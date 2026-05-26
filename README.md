@@ -186,11 +186,3 @@ I also added a porting to via .HEX file in the 'firmware/via_support' folder [he
 </p>
 
 Acrylic case image gallery [here](https://github.com/mattdibi/yampad/tree/master/img/acrylic_case/).
-
-### Donations
-
-If you've read this far and found something useful, please consider donating to help me maintain and further develop this project.
-
-<p align="center">
-<a href="https://www.paypal.me/MattiaDalBen"><img src="img/donate-button.jpeg" alt="Donate button" width=300/></a>
-</p>
