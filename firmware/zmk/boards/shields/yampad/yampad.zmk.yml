@@ -1,0 +1,10 @@
+file_format: "1"
+id: yampad
+name: Yampad
+type: shield
+url: https://github.com/mattdibi/yampad
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
